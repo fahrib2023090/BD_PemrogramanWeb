@@ -1,13 +1,103 @@
 body {
-    font-family: sans-serif;
-  }
-   
-  h2, h3 {
-    color: #00a2c6;
-  }
-   
-  footer {
-    padding: 20px;
-    color: white;
-    background-color: #00a2c6;
-  }
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+/* DISPLAY ROLES */
+#nav_bar .nav_button {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.nav_button > a {
+  text-decoration: none;
+  color:white;
+  background-color: #00a2c6;
+  padding: 10px;
+}
+/* END */
+
+/* PSEUDO CODE
+   BOX-SHADOW
+ */
+.nav_button > a:hover {
+  color: orange;
+  box-shadow: 1px 1px 1px 11px #666666;
+
+}
+/* END */
+
+/* TEXT ALIGN && ROUNDED */
+p.title {
+  line-height: 30px;
+  letter-spacing: 0.9px;
+  margin: 30px;
+  text-shadow: 4px 4px 7px #111111;
+  background-color: #cccccc;
+  color: #ffffff;
+}
+
+p.sejarah {
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.8px;
+  margin: 30px;
+}
+
+p.filosofi {
+  background-color: #60d0a8;
+  padding: 15px;
+  margin: 30px;
+  letter-spacing: 0.8px;
+  line-height: 30px;
+  text-align: justify;
+  color: white;
+  border-radius: 10px;
+}
+
+/* END */
+
+/* BOX DIMENSION */
+
+article#geografis {
+  height: 200px;
+  background-color: lightgreen;
+  border: 10px solid cornflowerblue;
+  padding: 20px;
+  overflow: auto;
+  margin: 10px;
+  scroll-behavior: smooth;
+}
+
+article#geografis>h2 {
+  text-align: center;
+}
+
+article>img {
+  width: 50%;
+}
+
+article#geografis>p {
+  width: 50%;
+  text-align: justify;
+  letter-spacing: 0.9px;
+  line-height: 30px;
+}
+
+/* END */
+
+h2,
+h3 {
+  color: #00a2c6;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+}
